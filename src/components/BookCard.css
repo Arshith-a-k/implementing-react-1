@@ -3,19 +3,19 @@
 .book-card {
   display: flex;
   flex-direction: column;
-  border: 1px solid #ddd;
+  border: 1px solid #070000;
   border-radius: 8px;
   margin: 16px;
   overflow: hidden;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  background-color: #e7e5e5;
   transition: transform 0.2s, box-shadow 0.2s;
   width: 200px;
 }
 
 .book-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(215, 209, 209, 0.2);
 }
 
 .book-cover {
@@ -34,17 +34,17 @@
 .book-title {
   margin: 0;
   font-size: 1.2em;
-  color: #333;
+  color: #000000;
   flex-grow: 1;
 }
 
 .book-author {
   margin: 8px 0;
-  color: #555;
+  color: #000000;
   font-size: 1em;
 }
 
 .book-description {
-  color: #666;
+  color: #000000;
   font-size: 0.9em;
 }
